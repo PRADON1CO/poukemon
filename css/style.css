@@ -33,3 +33,22 @@ main{
 .sombra{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.imgDetalle{
+    width: 80vw;
+}
+
+
+@media all and (min-width: 767px) and (max-width: 991px) {
+    .imgDetalle{
+        height: 475px;
+        width: 475px;
+    }
+}
+
+@media all and (min-width: 992px){
+    .imgDetalle{
+        height: 475px;
+        width: 475px;
+    }
+}
